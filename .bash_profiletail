@@ -1,0 +1,1 @@
+export PATH="$HOME/bin:$PATH" -1 .bash_profile
