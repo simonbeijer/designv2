@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,29 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
+
+    Gyllene snittet:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-goldenratio
+
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Detta är en kurs i webbdesign!
 
-Skriv några kloka ord om kursen?
+Jag ser mycket framemot att börja lära mig mer css,
+för att kunna göra schyssta webbsidor.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Jag hoppas att jag kan utverklas mycket och få ett öga för webbdesign,
+och att lära mig mer om olika verktyg inom webbprogrammering.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+
+[FIGURE src=http://localhost:8080/design/me/redovisa/htdocs/image/GoldenRatio.png?width=370&height=210&crop-to-fit caption="Bild på Gyllenesnittet."]

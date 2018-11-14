@@ -1,25 +1,37 @@
 ---
 title: "Min fina titel"
+views:
+    Gyllene snittet:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-goldenratio
+    Byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
-
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Var hälsad jordling!
+-------------------
+[FIGURE src="http://localhost:8080/design/me/redovisa/htdocs/image/SimonIRepan.jpeg?width=300&height=380&crop-to-fit" class="right" caption="Bild på mig"]
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag heter Simon och kommer ifrån Jönköping, även kallat Smålands Jerusalem.
+Det är en fin stad vid botten av Vättern, med mycket skog omkring.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Förutom att sitta vid datorn så gillar jag att spela musik, gitarr, bas och trummor är det jag kan bäst. Men även lite klaviatur ibland(piano/syth) jag genom programmet logic pro X.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Jag gillar även att träna mest tid lägger jag på Thaiboxning men jag spelar även lite fotboll och nått åt Hockeybockey hållet på vinterhalvåret. Har jag tid över från det kanske jag gymmar kör MTB eller springer lite.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Gillar även att laga mat, även om jag inte alltid vet vad det ska bli är det oftast ganska gott när det är färdigt.
+Något utan av det bästa jag vet är att kolla på matprogram och äta samtidig. Inte en livstil jag skulle rekommendera till någon. Tack för mig.
