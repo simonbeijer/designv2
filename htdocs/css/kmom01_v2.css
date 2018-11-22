@@ -1,0 +1,208 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+  background: radial-gradient(ellipse at top, #e66465, transparent), radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+}
+body {
+  color: none;
+  background-color: rgba(0, 0, 0, 0.25);
+  font: 100.01%/1 'Allerta Stencil', sans-serif;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.footer-column {
+  display: inline;
+  width: 32%;
+  float: left;
+  padding-left: 4px;
+}
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.figure img {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.rm-navbar ul {
+  text-align: center;
+}
+.wrap-sidebar {
+  border: solid black 2px;
+  margin-top: 5px;
+}
+li {
+  list-style-type: none;
+  padding-right: 20px;
+}
+header li {
+  display: inline;
+}
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+header a:hover {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  -webkit-transform: scale(1.2);
+}
+header a:active {
+  color: rgba(0, 0, 0, 0.7);
+}
+.region-flash img {
+  border: solid black 2px;
+  margin-top: 5px;
+  width: 92.4%;
+}
+.outer-wrap-header {
+  height: 100px;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+img {
+  max-width: 100%;
+}
+/**
+ * Navbar.
+ */
+@media screen and (max-width: 960px) {
+  .rm-desktop a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 15%;
+  }
+  .region-header-col-2 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 590px) {
+  .rm-desktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 620px) {
+  .region-sidebar-right,
+  .region-sidebar-left {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-column {
+    display: none;
+  }
+}
+@media screen and (max-width: 619px) {
+  .region-main {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .rm-default a {
+    padding: 0.5em;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
+.site-logo {
+  display: none;
+}
+.region-header-col-1 {
+  display: none;
+}
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
