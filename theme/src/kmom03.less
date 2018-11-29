@@ -104,13 +104,15 @@
 /**
  * My own settings, not currently in their own module.
  */
- @fontFamilyBody:  'Allerta Stencil', sans-serif;
 
- @colorBody: none;
 
- @bgColorBody: none;
+// @fontFamilyBody:  'Allerta Stencil', sans-serif;
 
- @ColorHtml: radial-gradient(ellipse at top, #e66465, transparent), radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+@colorBody: none;
+
+@bgColorBody: none;
+
+@ColorHtml: radial-gradient(ellipse at top, #e66465, transparent), radial-gradient(ellipse at bottom, #4d9f0c, transparent);
 
 // .clearfix() {
 //      #design-mixin.clearfix();
@@ -128,11 +130,44 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .flash {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .sidebar-left,
+    .sidebar-right {
+        #desinax-vgrid.column(@columns / 2);
+    }
+
+    .main {
+        #desinax-vgrid.column(@columns / 2);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar-left,
+    .sidebar-right,
+    .main {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
 // Magic number and default fontsize, together makes up base lineheight
 @magicNumber:  24px;
 @fontSizeBody: 16px;
 
+.byline {
+    margin-left: @magicNumber;
+}
+
 // Set font family to use
 @fontFamilyHeadings:  @fontFamilyCambria;
-@fontFamilyBody:      @fontFamilyCalibri;
+@fontFamilyBody:      @fontFamilyMonospace:
 @fontFamilyCode:      @fontFamilyCourier;

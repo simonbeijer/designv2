@@ -39,5 +39,5 @@ och att lära mig mer om olika verktyg inom webbprogrammering.
 
 [FIGURE src=http://localhost:8080/design/me/redovisa/htdocs/image/GoldenRatio.png?width=370&height=210&crop-to-fit caption="Bild på Gyllenesnittet."]
 
-[Min me redovisa på GitHub](https://github.com/simonbeijer/designv2)
-[Kursens repo på GitHub](https://github.com/dbwebb-se/design)
+<!-- [Min me redovisa på GitHub](https://github.com/simonbeijer/designv2)>
+[Kursens repo på GitHub](https://github.com/dbwebb-se/design) -->

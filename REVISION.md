@@ -2,6 +2,12 @@ Revison history
 =====================
 
 ----------------------
+v3.0.2 (2018-11-29)
+-----------------------
+* Styling with grid and finishing kmom03.
+
+
+----------------------
 v3.0.1 (2018-11-27)
 -----------------------
 * Adding grid-layout and grid-responsiveness.
