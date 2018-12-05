@@ -4744,6 +4744,9 @@ overflow .row::after {
 .figure img {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
+.region-flash img {
+  border: solid black 2px;
+}
 figure {
   display: inline;
   float: left;
@@ -4759,6 +4762,7 @@ header a {
   text-decoration: none;
   font-size: 24px;
   color: black;
+  font-weight: bold;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -4775,12 +4779,6 @@ header a {
   width: 57.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-}
-header a {
-  font-weight: bold;
-}
-.region-flash img {
-  border: solid black 2px;
 }
 .region-flash {
   margin-bottom: 24px;
@@ -5354,3 +5352,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 @font FamilyBody:      monospace:
 monospace:      "Courier New", Courier, monospace;
+.rapportbild {
+  float: none;
+}

@@ -53,5 +53,10 @@ return [
             "url" => "test",
             "title" => "Test sida för MD, CCS osv.",
         ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapport",
+        ],
     ],
 ];

@@ -1,8 +1,14 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04 minimalistic.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v6/NaPecZTIAOhVxoMyOr9n_E7fdMPmCA.ttf) format('truetype');
+}
 /**
  * iport clearfix.
  */
@@ -4342,7 +4348,7 @@ template {
 html {
   overflow-y: scroll;
   background-color: #424242;
-  background: radial-gradient(ellipse at top, #e66465, transparent), radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+  background: #DADADB;
 }
 body {
   color: none;
@@ -4355,7 +4361,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family: "serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5350,8 +5356,55 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .byline {
   margin-left: 24px;
 }
-@font FamilyBody:      monospace:
-monospace:      "Courier New", Courier, monospace;
 .rapportbild {
   float: none;
 }
+header a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-weight: normal;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+header a {
+  font-size: 28.8px;
+  font-weight: normal;
+}
+.footer-column {
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+}
+.figure img {
+  box-shadow: none;
+}
+.site-logo-text a {
+  margin-left: 24px;
+  font-size: 36px;
+  text-shadow: none;
+}
+.region-flash img {
+  border: none;
+}
+.wrap-sidebar {
+  border: none;
+}
+.region-sidebar-right {
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.region-sidebar-left {
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+@font FamilyHeadings:    font-family: 'Titillium Web', sans-serif;
+@font FamilyBody:    font-family: 'Titillium Web', sans-serif;
+@font FamilyCode:    font-family: 'Titillium Web', sans-serif;

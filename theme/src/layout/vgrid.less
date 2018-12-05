@@ -69,7 +69,9 @@ overflow
 .figure img {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
-
+.region-flash img {
+     border: solid black 2px;
+}
 // .figure-right {
 //     #desinax-vgrid.column(@columns * 1 / 4)
 // }
@@ -86,6 +88,7 @@ header a {
     text-decoration: none;
     font-size: @magicNumber;
     color: black;
+    font-weight: bold;
 }
 
 .region-header-col-1,
@@ -96,14 +99,6 @@ header a {
 
 .region-header-col-2 {
     #desinax-vgrid.column(14);
-}
-
-header a {
-    font-weight: bold;
-}
-
-.region-flash img {
-     border: solid black 2px;
 }
 
 .region-flash {

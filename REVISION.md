@@ -2,6 +2,12 @@ Revison history
 =====================
 
 ----------------------
+v4.0.1 (2018-12-05)
+-----------------------
+* Adding rapport page and styles minimalistic, dark, colorful.
+
+
+----------------------
 v3.0.2 (2018-11-29)
 -----------------------
 * Styling with grid and finishing kmom03.

@@ -1,10 +1,10 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04 minimalistic.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 
-
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 /**
  * iport clearfix.
  */
@@ -112,7 +112,7 @@
 
 @bgColorBody: none;
 
-@ColorHtml: radial-gradient(ellipse at top, #e66465, transparent), radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+@ColorHtml: #DADADB;
 
 // .clearfix() {
 //      #design-mixin.clearfix();
@@ -167,12 +167,21 @@
     margin-left: @magicNumber;
 }
 
-// Set font family to use
-@fontFamilyHeadings:  @fontFamilyCambria;
-@fontFamilyBody:      @fontFamilyMonospace:
-@fontFamilyCode:      @fontFamilyCourier;
 
 
 .rapportbild {
     float:none;
 }
+
+header a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-weight: normal;
+}
+
+@import "layout/minimalistic.less";
+// Set font family to use
+@fontFamilyHeadings:    font-family: 'Titillium Web', sans-serif;
+@fontFamilyBody:    font-family: 'Titillium Web', sans-serif;
+@fontFamilyCode:    font-family: 'Titillium Web', sans-serif;
