@@ -1,6 +1,11 @@
 Revison history
 =====================
 
+v4.0.2 (2018-12-06)
+-----------------------
+* Adding rapport and finishing styles minimalistic, dark, colorful.
+
+
 ----------------------
 v4.0.1 (2018-12-05)
 -----------------------

@@ -4,7 +4,7 @@
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
 /**
  * iport clearfix.
  */
@@ -112,7 +112,7 @@
 
 @bgColorBody: none;
 
-@ColorHtml: #DADADB;
+@ColorHtml: #faf7f7;
 
 // .clearfix() {
 //      #design-mixin.clearfix();
@@ -166,8 +166,9 @@
 .byline {
     margin-left: @magicNumber;
 }
-
-
+.region-main {
+    margin-bottom: @magicNumber * 2;
+}
 
 .rapportbild {
     float:none;
@@ -175,13 +176,13 @@
 
 header a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: @magicNumber * 1.2;
     color: black;
     font-weight: normal;
 }
 
 @import "layout/minimalistic.less";
 // Set font family to use
-@fontFamilyHeadings:    font-family: 'Titillium Web', sans-serif;
-@fontFamilyBody:    font-family: 'Titillium Web', sans-serif;
-@fontFamilyCode:    font-family: 'Titillium Web', sans-serif;
+@fontFamilyHeadings:    @fontFamilyHelvetica;
+@fontFamilyBody:    @fontFamilyArial;
+@fontFamilyCode:    @fontFamilyArial;

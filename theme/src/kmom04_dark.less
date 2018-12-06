@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04 dark.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 
 
@@ -112,7 +112,7 @@
 
 @bgColorBody: none;
 
-@ColorHtml: radial-gradient(ellipse at top, #e66465, transparent), radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+@ColorHtml: linear-gradient(#281232, #1a0a23);
 
 // .clearfix() {
 //      #design-mixin.clearfix();
@@ -168,11 +168,25 @@
 }
 
 // Set font family to use
-@fontFamilyHeadings:  @fontFamilyCambria;
-@fontFamilyBody:      @fontFamilyMonospace:
-@fontFamilyCode:      @fontFamilyCourier;
+@fontFamilyHeadings:  @fontFamilyTimesNewRoman;
+@fontFamilyBody:      @fontFamilyArial;
+@fontFamilyCode:      @fontFamilyTimes;
 
+.region-main {
+    margin-bottom: @magicNumber * 2;
+}
 
 .rapportbild {
     float:none;
+}
+
+@import "layout/dark.less";
+
+.rm-desktop li a {
+    font-family: @fontFamilyTimesNewRoman;
+    text-decoration: none;
+}
+
+header a {
+    font-family: @fontFamilyTimesNewRoman;
 }

@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04 dark.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
  * iport clearfix.
@@ -4342,12 +4342,12 @@ template {
 html {
   overflow-y: scroll;
   background-color: #424242;
-  background: radial-gradient(ellipse at top, #e66465, transparent), radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+  background: linear-gradient(#281232, #1a0a23);
 }
 body {
   color: none;
   background-color: none;
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 Arial, sans-serif;
 }
 h1,
 h2,
@@ -4355,7 +4355,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Times New Roman", Times, serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4443,7 +4443,7 @@ b {
   font-weight: bold;
 }
 mark {
-  color: #000;
+  color: #6974B1;
   background-color: #ff9;
 }
 abbr[title],
@@ -4479,7 +4479,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "monospace";
+  font-family: Times, "Times New Roman", serif;
 }
 code,
 samp {
@@ -4632,6 +4632,9 @@ hr::after {
   left: 50%;
   padding: 0 0.25em;
   background-color: #fff;
+}
+.region-main {
+  margin-bottom: 48px;
 }
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
@@ -5350,8 +5353,75 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .byline {
   margin-left: 24px;
 }
-@font FamilyBody:      monospace:
-monospace:      "Courier New", Courier, monospace;
+.region-main {
+  margin-bottom: 48px;
+}
 .rapportbild {
   float: none;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.footer-column {
+  background-color: rgba(76, 111, 5, 0.1);
+  border: none;
+  border-left: solid 10px #3a383b;
+}
+.region-sidebar-right {
+  background-color: rgba(76, 111, 5, 0.1);
+  border: none;
+  border-left: solid 10px #3a383b;
+}
+.region-sidebar-left {
+  background-color: rgba(76, 111, 5, 0.1);
+  border: none;
+  border-left: solid 10px #3a383b;
+}
+.region-flash img {
+  border: none;
+}
+header a {
+  font-size: 24px;
+  color: #AAB43C;
+}
+.rm-desktop li a {
+  color: #AAB43C;
+}
+.rm-desktop li a:hover {
+  color: #8A941D;
+  text-decoration: none;
+}
+a:link {
+  color: #AAB43C;
+}
+a:visited {
+  color: #8A941D;
+}
+p {
+  color: #C9EC99;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+legend {
+  color: #C9EC99;
+}
+.rm-desktop li a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+header a {
+  font-family: "Times New Roman", Times, serif;
 }
