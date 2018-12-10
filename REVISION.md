@@ -1,6 +1,12 @@
 Revison history
 =====================
 
+v5.0.1 (2018-12-10)
+-----------------------
+* Adding rapport 05_laddningstid.
+
+
+
 v4.0.2 (2018-12-06)
 -----------------------
 * Adding rapport and finishing styles minimalistic, dark, colorful.
