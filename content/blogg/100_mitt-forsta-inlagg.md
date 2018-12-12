@@ -8,7 +8,9 @@ published: "2018-10-03"
 Mitt första inlägg
 ==================================
 
-
+<figure class="figure">
+    <img src="img/lake.jpg" alt="En best som var snäll">
+</figure>
 
 Här är mitt allra första blogg inlägg.
 
