@@ -190,3 +190,39 @@ header a {
 .rm-default li li {
     background: rgba(0, 0, 0, 0.1);
 }
+
+.region-sidebar-left {
+    border-left: solid black 1px;
+}
+
+.region-sidebar-right {
+    border-left: solid black 1px;
+}
+
+.footer-column {
+    border-left: solid black 1px;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
