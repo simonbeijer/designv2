@@ -117,37 +117,41 @@ Fotografiska ligger inte så bra till jämfört med dom andra sidorna och blir d
 
 Bilderna är väldigt stora på deras hemsida vilket var det jag tänkte skulle vara intressant att se, men tyvärr vet jag inte om dom har lyckat så bra med detta.
 
-Det tar väldigt låg tid att ladda sidan jag märker t.o.m detta när jag går in på sidan första gången den hoppar runt ganska mycket innan det är färdig laddad. Även om jag inte kunnat nått om prestandard på hemsidor så skulle jag nog reagera.
+Det tar väldigt låg tid att ladda sidan jag märker t.o.m detta när jag går in på sidan första gången den hoppar runt ganska mycket innan det är färdig laddad. Hade jag inte kunnat nått om prestandard på hemsidor så skulle jag nog reagera också.
 
-Dom har förstås väldigt mycket bilder, men det är förstora för webben skulle jag säga dom har en bild på 910kb sedan en på 683kB och fem stycken över 400kB.
+Dom har förstås väldigt mycket bilder, men det är förstora för webben skulle jag säga, dom har en bild på 910kb sedan en på 683kB och fem stycken över 400kB.
 
 Enligt page speed så kan dom lösa dessa problem med modernare bildformat och koda bilderna effektivare.
 Bilden på 910kB skulle kunna bli 328kB detta skulle dom kunna spara väldigt mycket tid.
 
 Det är väldigt mycket jpg bilder på sidan svg för loggan men inte så mycket annat. Jag trodde nog att en foto hemsida borde ha bättre koll på fil format osv.
 
-Den genom gående linjen i alla dessa museum hemsidor är att dom behöver bli bättre på mobila enheter.
+Den genomgående linjen i alla dessa museum hemsidor är att dom behöver bli bättre på mobila enheter.
 
-Samtliga ligger lägre än vad jag trodde att dom skulle.
+Samtliga ligger lägre än vad jag trodde att dom skulle göra.
 
-Jag tror att dom kan tjäna mycket på att vara mer tillgängliga där då man ofta använder mobilen om man är på tex resa i Stockholm där alla museum är belägna.
+Jag tror att dom kan tjäna mycket på att vara mer tillgängliga på mobilen då man ofta använder mobilen om man är på tex på resa i Stockholm där alla museum är belägna.
 
 Det skulle underlätta för att hitta information och köpa biljetter osv.
 
 Sedan har dom flesta människorna begränsning på hur mycket mobilt bredband man har att tillgå och man vill inte lägga det på att ladda onödigt stora bilder som ändå inte kan användas fullt ut i mobilen.
 
-Även sökmotorer svarar bättre på snabba sidor och om det finns konkurrens om vilket museum man kan besöka i en viss stad så vill man så klart vara mest tillgänglig.
+Även sökmotorer svarar bättre på snabba sidor och om det finns konkurrens om vilket museum man kan besöka i en viss stad så vill man såklart vara mest tillgänglig.
+
+Efter att ha gjort denna analys skulle jag säga att laddningstiden för en sida bör helst vara under två sekunder, jag upplever att vänta innan man kan börja skrolla inte känns rimligt med en mordern sida.
+
+Att sidan hoppar till för att saker hamnar efter i laddning känns också som onödig data om det inte kan laddas inom dom första sekunderna.
 
 Referenser
 -----------------------
 
-https://developers.google.com/speed/pagespeed/insights/
+[https://developers.google.com/speed/pagespeed/insights/](https://developers.google.com/speed/pagespeed/insights/)
 
-https://www.fotografiska.com/sto
+[https://www.fotografiska.com/sto](https://www.fotografiska.com/sto)
 
-https://www.tekniskamuseet.se
+[https://www.tekniskamuseet.se](https://www.tekniskamuseet.se)
 
-https://www.universeum.se/sv/
+[https://www.universeum.se/sv/](https://www.universeum.se/sv/)
 
 Övrigt
 -----------------------

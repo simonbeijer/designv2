@@ -1,30 +1,41 @@
 ---
-author: mos
+author: Simon
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-12-03"
+    - regnbåge
+    - naturfenomen
+    - vår
+published: "2018-12-13"
 ---
-Mitt tredje inlägg
+VID REGNBÅGENS SLUT
 ==================================
 
-Nu har jag koll på läget, men jag måste skriva lite bättre och "catchy" rubriker.
 
-Annars kommer ingen läsa min blogg.
+<img src="img/rainbow.jpg" alt="En dubbel rengbåge" class="full-width" />
+
+
+
+
+Efter regn kommer solsken.
 
 <!--more-->
 
-Man bör skriva intressanta texter, då får man fler läsare, visst är det så?
+
+### EFFEKTER {#vad-som}
+<img src="image/rainbow.jpg?w=600&area=20,20,34,20" class="center" alt="Dubbel regnbåge just på bara regnbågen">
 
 
+En beskärd bild på endast vissar huset och regnbågarna.
 
-Rubrik 2 {#anchor-hit}
------------------------------------
+<img src="image/rainbow.jpg?w=500&area=20,20,34,20&f=smooth,-7" class="center" alt="Dubbel regnbåge här med en f=smooth,-7 effekt">
 
-Text.
-
+Här med en häftig effekt f=smooth,-7.
 
 
-### Rubrik 3 {#vad-som}
+###OM BILDEN {#anchor-hit}
 
-Text.
+[FIGURE src="image/rainbow.jpg?w=500&h=400&crop-to-fit" class="left w50" caption="Dubbel regnbåge"] Detta är en bild tagen på en dubbel regnbåge, inte en helt vanlig företeelse.
+
+Det var i slutet på maj och sommaren var på väg.
+Efter en kraftig regnskur så dånade denna dubbla regnbåge upp på himmelen.
+
+Jag passade på att ta ett kort, det var fler som gjorde. Samtliga jag var med den dagen och människro jag såg runt omkring tog ett kort på detta naturfenomen.

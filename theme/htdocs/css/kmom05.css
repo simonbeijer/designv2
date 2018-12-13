@@ -5365,6 +5365,15 @@ header a {
   color: black;
   font-weight: normal;
 }
+.rm-default li li {
+  background: rgba(0, 0, 0, 0.1);
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -5382,10 +5391,11 @@ header a {
 .footer-column {
   border: none;
   background: rgba(0, 0, 0, 0.1);
+  border-left: solid black 1px;
 }
 .site-logo-text a {
   margin-left: 24px;
-  font-size: 38.4px;
+  font-size: 52.8px;
   text-shadow: none;
   color: #bdb52c;
 }
@@ -5398,38 +5408,13 @@ header a {
 .region-sidebar-right {
   background: rgba(0, 0, 0, 0.1);
   border: none;
+  border-left: solid black 1px;
 }
 .region-sidebar-left {
   background: rgba(0, 0, 0, 0.1);
   border: none;
-}
-.rm-default li li {
-  background: rgba(0, 0, 0, 0.1);
-}
-.region-sidebar-left {
   border-left: solid black 1px;
 }
-.region-sidebar-right {
-  border-left: solid black 1px;
-}
-.footer-column {
-  border-left: solid black 1px;
-}
-img,
-embed,
-object,
-video {
-  max-width: 100%;
-}
-/**
- * Figure with ASCIINEMA
- */
-/**
- * Figure with Codepen
- */
-/** --------------------------------------------------------------
- * Figure through .figure
- */
 figure.figure,
 figure.asciinema,
 figure.codepen,
@@ -5437,6 +5422,7 @@ figure.figure-codepen {
   display: table;
   padding: 0;
   margin: 0;
+  margin-bottom: 24px;
   /* Chrome shinks images in td */
   /* Position the images */
 }
@@ -5447,21 +5433,15 @@ figure.figure img {
 figure.figure figcaption {
   display: table-caption;
   caption-side: bottom;
+  padding-top: 12px;
 }
 figure.figure figcaption p {
   margin-top: 0;
+  margin-bottom: 0;
   font-style: italic;
 }
 figure.figure td img {
   max-width: none;
-}
-figure.figure.left {
-  float: left;
-  margin-right: 8px;
-}
-figure.figure.right {
-  float: right;
-  margin-left: 8px;
 }
 figure.figure.center {
   clear: both;
@@ -5470,38 +5450,72 @@ figure.figure.center {
 figure.figure.center figcaption {
   text-align: center;
 }
-@media screen and (max-width: 600px) {
-  figure.figure.w50 {
-    width: 300px;
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
   }
-  figure.figure.w25 {
-    width: 150px;
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
   }
 }
 @media screen and (max-width: 550px) {
-  figure.figure.w50 {
-    width: 225px;
-  }
-}
-@media screen and (max-width: 450px) {
-  figure.figure.w50 {
-    width: 200px;
-  }
-}
-@media screen and (max-width: 400px) {
-  figure.figure.w50 {
-    width: 150px;
-  }
-}
-@media screen and (max-width: 320px) {
-  figure.figure.w50 {
-    min-width: 100%;
-  }
-  figure.figure.left,
-  figure.figure.right {
-    float: none;
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
     margin-left: 0;
     margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
   }
 }
 figure.asciinema {
@@ -5517,3 +5531,12 @@ figure.codepen,
 figure.figure-codepen {
   width: 100%;
 }
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */

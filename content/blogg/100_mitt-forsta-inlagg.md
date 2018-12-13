@@ -1,34 +1,42 @@
 ---
-author: mos
+author: Simon
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-10-03"
+    - djur
+    - varning
+    - idissla
+published: "2018-10-13"
 ---
-Mitt första inlägg
+EN SNÄLL BEST
 ==================================
 
-<figure class="figure">
-    <img src="img/lake.jpg" alt="En best som var snäll">
-</figure>
+<img src="img/beast.jpg" alt="En tjur" class="full-width" />
 
-Här är mitt allra första blogg inlägg.
 
-Ett blogg-inlägg innehåller en tagg för `<!--more-->` som bestämmer vilken text som visas på förstasidan.
+
+
+Bild på en tjur som står i en hage. Taget en vårdag i Arvika.
 
 <!--more-->
+EFFEKTER {#anchor-hit}
+-----------------------------
+<img src="image/beast.jpg?w=400&f=negate" class="center" alt="En tjur.">
 
-Sen handlar det om att skriva sina blogg-inlägg...
-
-
-
-Rubrik 2 {#anchor-hit}
------------------------------------
-
-Text.
+Här en något läskigare bild med f=negate
 
 
+<img src="image/beast.jpg?w=600&h=200&area=2,0,30,7" class="center" alt="En tjur.">
+Beskärd mot huvudet
 
-### Rubrik 3 {#vad-som}
+###OM BILDEN {#vad-som}
 
-Text.
+
+[FIGURE src="image/beast.jpg?w=250&srgb&quality=10" class="right w50" caption="En tjur under 5kB."]
+
+Detta är en bild som är tagen i Arvika, på väg till ett utkikstorn dit jag och mina klasskamrater gick medans jag pluggade på Ingesunds Musik Högskola.
+
+Min kompis vill alltid ge lite gräs till djuren som stod runt om i hagarna på vägen dit.
+
+Då passade jag på att ta ett kort på tjuren som jag sedan skickade med snapchat.
+
+Jag tror iallafall att det är en tjur men tyvärr har har inte på så bra koll på sånt.
+Han såg väldigt harmonisk ut och var intresserade av oss.

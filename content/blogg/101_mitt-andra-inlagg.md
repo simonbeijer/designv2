@@ -1,30 +1,37 @@
 ---
-author: mos
+author: Simon
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-11-03"
+    - moln
+    - stad
+    - vatten
+published: "2018-11-13"
 ---
-Mitt andra inlägg
+EN STAD I FJÄRRAN
 ==================================
 
-Här är mitt andra blogg inlägg.
+<img src="img/lake.jpg" alt="Kyrkviken" class="full-width" />
 
-Nu börjar jag bli varm i kläderna.
+
+
+En kall kväll på väg in mot stan.
 
 <!--more-->
 
-Bilder skall fixas också, javisst ja, men dem innehåler inte blogg-mallen...
-
-
-
-Rubrik 2 {#anchor-hit}
+EFFEKTER {#anchor-hit}
 -----------------------------------
+<img src="image/lake.jpg?w=600&h=200&crop-to-fit&convolve=emboss-alt" class="center" caption="Kyrkviken här med en convolve=emboss-alt effekt">
 
-Text.
+En fin himmel med convolve=emboss-alt filter.
 
+<img src="image/lake.jpg?w=600&h=200&crop-to-fit&convolve=sharpen" class="center" caption="Kyrkviken här med en convolve=sharpen effekt">
 
+Här med extra skärpa med hjälp av convolve=sharpen.
 
-### Rubrik 3 {#vad-som}
+###OM BILDEN {#vad-som}
 
-Text.
+[FIGURE src="image/lake.jpg?w=600&h=200&crop-to-fit&convolve=sharpen" class="left w30" caption="Kyrkviken"]
+Detta är en bild tagen på Kyrkviken en sjö/vik som ligger i Värmland, Arvika.
+
+Den är taggen när jag och några klasskamrater var påväg in emot standen, vi hade varit på skolan som ligger belägen ute på en udde. Vi hade gjort musik hela dagen och skulle nu gå in till stan för att fira att det var helg.
+
+Det började bli kallt och man så att solen precis hade försvunnit från standen men låg fortfarande kvar i backgrunden på väg till andra sidan jorden.
