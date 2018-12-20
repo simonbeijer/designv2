@@ -22,7 +22,7 @@ Min me-sida i kursen design
 
 ### Var hälsad jordling!
 
-[FIGURE src="http://localhost:8080/design/me/redovisa/htdocs/image/SimonIRepan.jpeg?width=288&height=331&crop-to-fit" class="right" caption="Bild på mig"]
+[FIGURE src="image/SimonIRepan.jpeg?width=288&height=331&crop-to-fit" class="right" caption="Bild på mig"]
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 

@@ -51,7 +51,7 @@ Det är höga kontraster i färgvalet, precis som nämns i färg guiden är det 
 
 Typsnittet är Roboto Sans serif i brödtexten och huvudrubriker. I huvudrubriker är det bold samt bara stora bokstäver. Största texten jag hittade var 160 px. Loggan i sans serif.
 
-[FIGURE src="http://localhost:8080/design/me/redovisa/htdocs/image/ryanair.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Ryanair"]
+[FIGURE src="image/ryanair.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Ryanair"]
 
 
 SAS
@@ -73,7 +73,7 @@ Inga andra direkt accent färger förutom lite loggor från andra företag. Logo
 Huvudrubrikerna är med stora bokstäver i en stark helvit kontrast. Huvudrubrikerna samt brödtexten är i ScandinavianRegular Sans serif sedan finns det även arial på några få delar. Största texten ligger på 40px.
 
 
-[FIGURE src="http://localhost:8080/design/me/redovisa/htdocs/image/sas.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="SAS"]
+[FIGURE src="image/sas.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="SAS"]
 
 Emirates
 =========
@@ -99,7 +99,7 @@ Huvudrubrikerna är med små bokstäver i en stark helvit eller svart med Italic
 Brödtexten är i Italic och på några få delar Arial Sans serif. Största texten ligger på 24px. Loggan i Serif.
 
 
-[FIGURE src="http://localhost:8080/design/me/redovisa/htdocs/image/emirates.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Emirates"]
+[FIGURE src="image/emirates.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Emirates"]
 
 
 Analys

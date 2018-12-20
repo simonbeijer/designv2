@@ -17,7 +17,7 @@ Jag använde mig av Google Page Speed samt att kolla på laddat innehåll i nät
 Resultat
 -----------------------
 
-[FIGURE src="http://localhost:8080/design/me/redovisa/htdocs/image/fotografiska.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Fotografiska"]
+[FIGURE src="image/fotografiska.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Fotografiska"]
 
 <table>
 <tr>
@@ -42,7 +42,7 @@ Resultat
 </tr>
 </table>
 
-[FIGURE src="http://localhost:8080/design/me/redovisa/htdocs/image/tekniska.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Tekniska"]
+[FIGURE src="image/tekniska.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Tekniska"]
 
 <table>
 <tr>
@@ -67,7 +67,7 @@ Resultat
 </tr>
 </table>  
 
-[FIGURE src="http://localhost:8080/design/me/redovisa/htdocs/image/universeum.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Universeum"]
+[FIGURE src="image/universeum.png?width=432&height=288&crop-to-fit" class="rapportbild" caption="Universeum"]
 
 <table>
 <tr>

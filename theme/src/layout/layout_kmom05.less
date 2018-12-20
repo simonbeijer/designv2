@@ -7,7 +7,7 @@
  * Variables
  */
 
-
+figure
 /**
  * General layout
  */
@@ -21,6 +21,17 @@
  //     display: none;
  // }
 
+ .rapportbild {
+     float:none;
+ }
+
+ header a {
+     text-decoration: none;
+     font-size: @magicNumber * 1.2;
+     color: black;
+     font-weight: normal;
+ }
+
 header a {
     font-size: @magicNumber * 1.2;
     font-weight: normal;
@@ -29,7 +40,6 @@ header a {
 .footer-column {
     border: none;
     background: rgba(0, 0, 0, 0.1);
-    border-left: solid black 1px;
 }
 
 .site-logo-text a {
@@ -42,6 +52,7 @@ header a {
 
 .region-flash img {
      border: none;
+     border-top: dashed black 5px;
 }
 
 .wrap-sidebar {
@@ -51,13 +62,11 @@ header a {
 .region-sidebar-right {
     background: rgba(0, 0, 0, 0.1);
     border: none;
-    border-left: solid black 1px;
 }
 
 .region-sidebar-left {
     background: rgba(0, 0, 0, 0.1);
     border: none;
-    border-left: solid black 1px;
 }
 
 figure.figure {

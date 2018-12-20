@@ -1,0 +1,169 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+ // ul ul {
+ //     display: none;
+ // }
+ //
+ // /* Hide responsive/mobile menu, leave this to kmom02 */
+ // .rm-navbar-max {
+ //     display: none;
+ // }
+
+ .rapportbild {
+     float:none;
+ }
+
+.footer-column {
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    border-left: solid black 3px;
+    height:120px;
+    transition:height 0.5s linear 0s;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.footer-column:hover{
+    height:180px;
+}
+
+.region-flash img {
+     border: none;
+}
+
+.wrap-sidebar {
+     border: none;
+}
+
+.region-sidebar-right {
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-left: solid black 3px;
+    box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.75);
+    margin-top: @magicNumber * 2;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.region-sidebar-left {
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-left: solid black 3px;
+    box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.75);
+    margin-top: @magicNumber * 2;
+    border-radius: 4px 4px 4px 4px;
+}
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+.site-footer {
+    padding-top: @magicNumber * 2;
+    border-bottom: black solid 3px;
+}
+
+.site-footer p {
+    border-top: black solid 3px;
+}
+
+.region-flash img {
+    display: none;
+}
+
+.inner-wrap-flash {
+    max-width: 80vw;
+    height: 30vh;
+    background-image: url(../image/dots.jpg?width=1900&height=380&crop-to-fit);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+    border-radius: 4px 4px 4px 4px;
+}
+
+.site-logo-text a {
+    // position: absolute;
+    margin-left: @magicNumber;
+    font-size: @magicNumber * 2.4;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,1);
+    color: #F7F8EE;
+}
+
+// body {
+//     padding-top: @magicNumber * 2;
+// }
+.row {
+    margin-bottom: none;
+}
+
+.outer-wrap-footer {
+    border-top: black double 5px;
+
+}
+
+html {
+    // background-color: #c1bdb6;
+    background-color: #2a2b2b;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+.rm-desktop li {
+    text-decoration: none;
+    font-size: @magicNumber * 1.4;
+    color: #F7F8EE;
+}
+
+.rm-desktop li a:hover{
+    text-decoration: none;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+.site-logo-text a:hover{
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+// main {
+//     margin-top: @magicNumber * 2;
+// }
+
+.region-header-col-1, .region-header-col-3 {
+    margin-bottom: none;
+}
+
+main {
+    -webkit-box-shadow: 0px 0px 160px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 160px -17px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 160px -17px rgba(0,0,0,0.75);
+    padding: 10px;
+    margin-top: @magicNumber * 0.5;
+    border-radius: 4px 4px 4px 4px;
+}
+
+img {
+    border-radius: 4px 4px 4px 4px;
+}

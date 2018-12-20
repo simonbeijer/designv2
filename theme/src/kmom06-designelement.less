@@ -1,0 +1,201 @@
+/*!
+ * Stylesheet for design kmom06 design element.
+ *
+ * This stylesheet is for the design course and kmom06 design element where we use LESS.
+ */
+
+
+/**
+ * iport clearfix.
+ */
+
+@import "mixin/clearfix.less";
+
+// .clearfix() {
+//     #design-mixin.clearfix();
+// }
+
+
+
+/**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom03.less";
+
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid.less";
+// // Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+.row {
+    #desinax-vgrid.row();
+
+    // background-color: #0f0;
+    margin-bottom: 12px;
+}
+
+/**
+ * Import the typographic grid.
+ */
+// @import "@desinax/typographic-grid/less/typography-font-families.less";
+// @import "layout/typography.less";
+/**
+
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+// @import "layout/layout.less";
+// @import "layout/layout_kmom02.less";
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+
+// @fontFamilyBody:  'Allerta Stencil', sans-serif;
+
+@colorBody: none;
+
+@bgColorBody: none;
+
+@ColorHtml: #faf7f7;
+
+// .clearfix() {
+//      #design-mixin.clearfix();
+// }
+
+@media screen and (max-width: 1340px) {
+    .rm-default a {
+        padding: 0.5em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .rm-default a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .flash {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .sidebar-left,
+    .sidebar-right {
+        #desinax-vgrid.column(@columns / 2);
+    }
+
+    .main {
+        #desinax-vgrid.column(@columns / 2);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar-left,
+    .sidebar-right,
+    .main {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+// Magic number and default fontsize, together makes up base lineheight
+@magicNumber:  24px;
+@fontSizeBody: 16px;
+
+.byline {
+    margin-left: @magicNumber;
+}
+.region-main {
+    margin-bottom: @magicNumber * 2;
+}
+
+.rapportbild {
+    float:none;
+}
+
+header a {
+    text-decoration: none;
+    font-size: @magicNumber * 1.2;
+    color: black;
+    font-weight: normal;
+}
+
+// Set font family to use
+@fontFamilyHeadings:    @fontFamilyHelvetica;
+@fontFamilyBody:    @fontFamilyArial;
+@fontFamilyCode:    @fontFamilyArial;
+
+.rm-default li li {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+@import "layout/layout_kmom06_design_element.less";
+
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";

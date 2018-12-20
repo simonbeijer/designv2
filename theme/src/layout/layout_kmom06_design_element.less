@@ -1,0 +1,168 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+ // .rm-desktop ul {
+ //     display: none;
+ // }
+ //
+ // /* Hide responsive/mobile menu, leave this to kmom02 */
+ // .rm-navbar-max {
+ //     display: none;
+ // }
+
+ .rapportbild {
+     float:none;
+ }
+
+header a {
+    text-decoration: none;
+    font-size: @magicNumber * 1.2;
+    color: black;
+    font-weight: normal;
+}
+
+header a {
+    font-size: @magicNumber * 1.2;
+    font-weight: normal;
+}
+
+.footer-column {
+    border: none;
+    background: #C4D2E0;
+    border-left: dashed black 4px;
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+}
+
+.site-logo-text a {
+    // position: absolute;
+    margin-left: @magicNumber;
+    font-size: @magicNumber * 3;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,1);
+    color: #FAF7F7;
+}
+
+.region-flash img {
+     border: none;
+}
+
+.wrap-sidebar {
+     border: none;
+}
+
+.region-sidebar-right {
+    background: #C9D6E3;
+    border: none;
+    border-right: dashed black 4px;
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+}
+
+.region-sidebar-left {
+    background: #C9D6E3;
+    border: none;
+    border-right: dashed black 4px;
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+}
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+// html {
+//     background: url(../image/wall.jpg) no-repeat center center fixed;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+// }
+//
+// body {
+//   background: rgba(255, 255, 255, .75);
+// }
+
+
+.outer-wrap-footer {
+    background: url(../image/chess2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: @magicNumber * 2;
+}
+
+.figure img {
+    -webkit-box-shadow: 0px 1px 12px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 12px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 12px 10px rgba(0,0,0,0.5);
+}
+
+.byline img {
+    -webkit-box-shadow: 0px 1px 12px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 12px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 12px 10px rgba(0,0,0,0.5);
+}
+
+.site-footer {
+    color: #FAF7F7;
+}
+
+.site-footer p {
+    border-top: #FAF7F7 solid 4px;
+    padding-top: @magicNumber * 0.5;
+}
+
+.site-footer a {
+    color: #9FE4D1;
+}
+
+.region-flash img {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -webkit-animation:flipinx 3s ease 0s 1 normal;
+    -moz-animation:flipinx 3s ease 0s 1 normal;
+    -ms-animation:flipinx 3s ease 0s 1 normal;
+    animation:flipinx 3s ease 0s 1 normal;
+}
+
+@-webkit-keyframes flipinx {
+0%{ opacity: 0; -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(90deg); }
+40%{ -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(-10deg); }
+70%{ -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(10deg); }
+100%{ opacity: 1; -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(0deg); }
+}
+
+@keyframes flipinx {
+0%{ opacity: 0; transform: perspective(400px) rotateX(90deg); }
+40%{ transform: perspective(400px) rotateX(-10deg); }
+70%{ transform: perspective(400px) rotateX(10deg); }
+100%{ opacity: 1; transform: perspective(400px) rotateX(0deg); }
+}

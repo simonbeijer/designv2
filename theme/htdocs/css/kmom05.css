@@ -5381,9 +5381,15 @@ video {
 /**
  * Variables
  */
-/**
- * General layout
- */
+figure .rapportbild {
+  float: none;
+}
+header a {
+  text-decoration: none;
+  font-size: 28.8px;
+  color: black;
+  font-weight: normal;
+}
 header a {
   font-size: 28.8px;
   font-weight: normal;
@@ -5391,7 +5397,6 @@ header a {
 .footer-column {
   border: none;
   background: rgba(0, 0, 0, 0.1);
-  border-left: solid black 1px;
 }
 .site-logo-text a {
   margin-left: 24px;
@@ -5401,6 +5406,7 @@ header a {
 }
 .region-flash img {
   border: none;
+  border-top: dashed black 5px;
 }
 .wrap-sidebar {
   border: none;
@@ -5408,12 +5414,10 @@ header a {
 .region-sidebar-right {
   background: rgba(0, 0, 0, 0.1);
   border: none;
-  border-left: solid black 1px;
 }
 .region-sidebar-left {
   background: rgba(0, 0, 0, 0.1);
   border: none;
-  border-left: solid black 1px;
 }
 figure.figure,
 figure.asciinema,
